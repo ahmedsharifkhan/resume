@@ -1,0 +1,5 @@
+baseURL = "/"
+title = "My Resume Site"
+
+[params]
+tagline = "Web Developer & Designer"
