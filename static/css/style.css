@@ -28,19 +28,66 @@
 ------------------------------------------------------------------ */
 /*-----------------------[ 1.Default CSS ]------------------------*/
 
+/* ================================
+   Copilot Inspired Global Style
+   (NO layout change)
+   ================================ */
+
 :root {
-  --bg-main: #f7f2ee;        /* Copilot background */
-  --bg-card: #ffffff;
-  --border-soft: #e9e4df;
-  --text-main: #1f1f1f;
-  --text-muted: #6f6f6f;
-
-  --accent-soft: #efe8e2;
-  --accent-dark: #d6ccc2;
-
-  --shadow-soft: 0 10px 30px rgba(0,0,0,0.06);
-  --radius-xl: 22px;
+  --cp-bg: #F8F4F1;
+  --cp-card: #FEFEFD;
+  --cp-border: #F8F2EE;
+  --cp-text: #1f1f1f;
+  --cp-muted: #6f6f6f;
+  --cp-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  --cp-radius: 24px;
 }
+
+/* Page background */
+body {
+  background: var(--cp-bg);
+  color: var(--cp-text);
+}
+
+/* Header (already exists in your site) */
+#mainHeader header {
+  background: var(--cp-card);
+  border-radius: 999px;
+  box-shadow: var(--cp-shadow);
+}
+
+/* Main content white blocks (your existing sections) */
+section,
+.main-section,
+.content-area {
+  background: var(--cp-card);
+  border-radius: var(--cp-radius);
+  box-shadow: var(--cp-shadow);
+}
+
+/* Buttons */
+button,
+.hire-me-btn,
+.download-btn {
+  background: #fff;
+  border-radius: 999px;
+  border: 1px solid var(--cp-border);
+  box-shadow: var(--cp-shadow);
+}
+
+/* Side menu card */
+.side-menu,
+.sidebar,
+.menu-wrap {
+  border-radius: var(--cp-radius);
+  box-shadow: var(--cp-shadow);
+}
+
+/* Text softness */
+p {
+  color: var(--cp-muted);
+}
+
 
 
 
