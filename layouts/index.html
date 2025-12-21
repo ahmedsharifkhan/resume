@@ -115,16 +115,15 @@
                 </div>
                 <div class="col-xxl-9 col-xl-9 col-lg-12" data-bs-spy="scroll">
                     <!-- ====================================== Section-One ===================================== -->
+                     <!-- hero.yaml -->
                     <section class="section-one" id="home">
                         <div class="row section-one-row">
                             <div class="col-xxl-6 col-xl-6 col-lg-6">
-                                <p class="hi-there fade_down">Hi there! <span>👋</span></p>
-                                <h1 class="creative fade_down">Creative Web & UI Designer.</h1>
-                                <h2 class="visionary fade_down">I am a visionary creative designer, known for my ability
-                                    to turn concepts into captivating visual narratives. My deep passion for the world
-                                    of design allows me to craft compelling stories through my artistic ingenuity.</h2>
+                                <p class="hi-there fade_down">{{ site.Data.hero.hi }}<span>👋</span></p>
+                                <h1 class="creative fade_down">{{ site.Data.hero.title }}</h1>
+                                <h2 class="visionary fade_down">{{ site.Data.hero.description }}</h2>
                                 <div class="download-btn">
-                                    <a href="{{ "pdf/olivia_resume.pdf" | relURL }}" class="aryaBtn">
+                                    <a href="{{ site.Data.hero.cv | relURL }}" class="aryaBtn">
                                         Download CV <img src="{{ "images/svg/download-svg.svg" | relURL }}" alt="download-svg">
                                     </a>
                                 </div>
@@ -132,10 +131,10 @@
                             <div class="col-xxl-6 col-xl-6 col-lg-6 portfolio-girl-img-col">
                                 <div class="position-relative zoom_in">
                                     <video autoplay loop muted class="portfolio-girl-img challenge-img">
-                                        <source src="{{ "video/video.mp4" | relURL }}" type="video/mp4">
+                                        <source src="{{ site.Data.hero.video | relURL }}" type="video/mp4">
                                     </video>
                                     <div class="girl-name">
-                                        <p class="ityped">I’M ARYA STARK_</p>
+                                        <p class="ityped">{{ site.Data.hero.name }}</p>
                                     </div>
                                 </div>
                             </div>
