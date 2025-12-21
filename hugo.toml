@@ -1,11 +1,9 @@
-baseURL = "/"
-title = "My Resume Site"
-
-[params]
-tagline = "Web Developer & Designer"
-
 baseURL = "https://ahmedsharifkhan.github.io/resume/"
 languageCode = "en-us"
 title = "Resume"
+
 relativeURLs = true
 canonifyURLs = true
+
+[params]
+tagline = "Web Developer & Designer"
