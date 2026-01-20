@@ -1,32 +1,37 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
 
- <!-- ====================================== Preloader ===================================== -->
-    <!-- <div class="preloader">
-        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-            <path id="loade-svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-        </svg>
-        <div class="loader-main">
-            <div class="loading">
-                <span data-text="L">L</span>
-                <span data-text="O">O</span>
-                <span data-text="A">A</span>
-                <span data-text="D">D</span>
-                <span data-text="I">I</span>
-                <span data-text="N">N</span>
-                <span data-text="G">G</span>
-            </div>
-        </div>
-    </div>
-    <div class="site-containe"> -->
-        <!-- ====================================== Header ===================================== -->
+<head>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/resume/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=resume/livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya Stark</title>
+<link rel="icon" type="image/x-icon" href="./images/svg/favicon.svg">
+
+<link rel="stylesheet" href="./css/swap.css">
+<link rel="stylesheet" href="./css/fancybox.min.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/slick.css">
+<link rel="stylesheet" href="./css/magnific-popup.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/media_query.css">
+
+</head>
+
+<body>
+    
+
+ 
+    
+        
         <div class="container" id="mainHeader">
             <header>
                 <a href="index.html">
-                    <img class="logo" src="{{ "images/svg/logo.svg" | relURL }}" alt="logo">
+                    <img class="logo" src="./images/svg/logo.svg" alt="logo">
                 </a>
                 <div class="aryaBtn-toggle-main mt-0">
                     <a href="#contact" class="aryaBtn hire-me-btn">
-                        Hire Me <img src="{{ "images/svg/hireMe-svg.svg" | relURL }}" alt="hireMe-svg">
+                        Hire Me <img src="./images/svg/hireMe-svg.svg" alt="hireMe-svg">
                     </a>
                     <button id="menu-toggle" class="menu-toggle-button">
                         <span class="hamburger" id="hamburger-1">
@@ -38,7 +43,7 @@
                 </div>
             </header>
         </div>
-        <!-- ====================================== Side Menu ===================================== -->
+        
         <div class="container">
             <div class="row main-row">
                 <div class="col-xxl-3 col-xl-3 col-lg-4">
@@ -46,37 +51,37 @@
                         <div class="list-menu menu-list-main">
                             <ul class="side-menu-ul">
                                 <li>
-                                    <a href="#home">HOME<img src="{{ "images/svg/home.svg" | relURL }}" alt="home"></a>
+                                    <a href="#home">HOME<img src="./images/svg/home.svg" alt="home"></a>
                                 </li>
                                 <li>
-                                    <a href="#about">ABOUT ME<img src="{{ "images/svg/about.svg" | relURL }}" alt="about"></a>
+                                    <a href="#about">ABOUT ME<img src="./images/svg/about.svg" alt="about"></a>
                                 </li>
                                 <li>
-                                    <a href="#services">SERVICES<img src="{{ "images/svg/services.svg" | relURL }}"
+                                    <a href="#services">SERVICES<img src="./images/svg/services.svg"
                                             alt="services"></a>
                                 </li>
                                 <li>
-                                    <a href="#portfolio">PORTFOLIO<img src="{{ "images/svg/portfolio.svg" | relURL }}"
+                                    <a href="#portfolio">PORTFOLIO<img src="./images/svg/portfolio.svg"
                                             alt="portfolio"></a>
                                 </li>
                                 <li>
-                                    <a href="#testimonial">TESTIMONIAL<img src="{{ "images/svg/testimonial.svg" | relURL }}"
+                                    <a href="#testimonial">TESTIMONIAL<img src="./images/svg/testimonial.svg"
                                             alt="testimonial">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#resume">RESUME<img src="{{ "images/svg/resume.svg" | relURL }}" alt="resume"></a>
+                                    <a href="#resume">RESUME<img src="./images/svg/resume.svg" alt="resume"></a>
                                 </li>
                                 <li>
-                                    <a href="#pricingPlan">PRICING PLAN<img src="{{ "images/svg/pricingPlan.svg" | relURL }}"
+                                    <a href="#pricingPlan">PRICING PLAN<img src="./images/svg/pricingPlan.svg"
                                             alt="pricingPlan">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#blog">BLOG<img src="{{ "images/svg/blog.svg" | relURL }}" alt="blog"></a>
+                                    <a href="#blog">BLOG<img src="./images/svg/blog.svg" alt="blog"></a>
                                 </li>
                                 <li>
-                                    <a href="#contact">CONTACT<img src="{{ "images/svg/contact.svg" | relURL }}"
+                                    <a href="#contact">CONTACT<img src="./images/svg/contact.svg"
                                             alt="contact"></a>
                                 </li>
                             </ul>
@@ -92,55 +97,58 @@
                             </a>
                             <div class="media-main">
                                 <a href="https://www.facebook.com" class="media-icons">
-                                    <img src="{{ "images/svg/facebook.svg" | relURL }}" alt="facebook">
+                                    <img src="./images/svg/facebook.svg" alt="facebook">
                                 </a>
                                 <a href="https://www.instagram.com" class="media-icons">
-                                    <img src="{{ "images/svg/insta.svg" | relURL }}" alt="insta">
+                                    <img src="./images/svg/insta.svg" alt="insta">
                                 </a>
                                 <a href="https://x.com" class="media-icons">
-                                    <img src="{{ "images/svg/twitter.svg" | relURL }}" alt="twitter">
+                                    <img src="./images/svg/twitter.svg" alt="twitter">
                                 </a>
                                 <a href="https://www.behance.net" class="media-icons">
-                                    <img src="{{ "images/svg/behance.svg" | relURL }}" alt="behance">
+                                    <img src="./images/svg/behance.svg" alt="behance">
                                 </a>
                                 <a href="https://dribbble.com" class="media-icons">
-                                    <img src="{{ "images/svg/dribbale.svg" | relURL }}" alt="dribbale">
+                                    <img src="./images/svg/dribbale.svg" alt="dribbale">
                                 </a>
                                 <a href="https://www.linkedin.com" class="media-icons">
-                                    <img src="{{ "images/svg/linkdin.svg" | relURL }}" alt="linkdin">
+                                    <img src="./images/svg/linkdin.svg" alt="linkdin">
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xxl-9 col-xl-9 col-lg-12" data-bs-spy="scroll">
-                    <!-- ====================================== Section-One ===================================== -->
-                     <!-- hero.yaml -->
+                    
+                     
                     <section class="section-one" id="home">
                         <div class="row section-one-row">
                             <div class="col-xxl-6 col-xl-6 col-lg-6">
-                                <p class="hi-there fade_down">{{ site.Data.hero.hi }}<span>👋</span></p>
-                                <h1 class="creative fade_down">{{ site.Data.hero.title }}</h1>
-                                <h2 class="visionary fade_down">{{ site.Data.hero.description }}</h2>
+                                <p class="hi-there fade_down">Hi there!<span>👋</span></p>
+                                <h1 class="creative fade_down">Creative Web &amp; UI Designer.</h1>
+                                <h2 class="visionary fade_down">
+I am a visionary creative designer, known for my ability
+to turn concepts into captivating visual narratives.
+</h2>
                                 <div class="download-btn">
-                                    <a href="{{ site.Data.hero.cv | relURL }}" class="aryaBtn">
-                                        Download CV <img src="{{ "images/svg/download-svg.svg" | relURL }}" alt="download-svg">
+                                    <a href="./pdf/olivia_resume.pdf" class="aryaBtn">
+                                        Download CV <img src="./images/svg/download-svg.svg" alt="download-svg">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 portfolio-girl-img-col">
                                 <div class="position-relative zoom_in">
                                     <video autoplay loop muted class="portfolio-girl-img challenge-img">
-                                        <source src="{{ site.Data.hero.video | relURL }}" type="video/mp4">
+                                        <source src="./video/video.mp4" type="video/mp4">
                                     </video>
                                     <div class="girl-name">
-                                        <p class="ityped">{{ site.Data.hero.name }}</p>
+                                        <p class="ityped">I’M ARYA STARK_</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <!-- ====================================== Section-Two ===================================== -->
+                    
                     <section class="section-two overflow-hidden" id="about">
                         <div class="row">
                             <div class="col-xxl-5 col-xl-5 col-lg-5 about-col">
@@ -217,7 +225,7 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ====================================== Section-Three ===================================== -->
+                    
                     <section class="section-three" id="services">
                         <h3 class="creative brand fade_down">Helping Brands <span>achieve digital mastery of</span>
                             Creative Innovation <span>and</span> Strategic Planning.
@@ -227,7 +235,7 @@
                             landscape.</h3>
                         <div class="services-box fade_down" id="services-box">
                             <div>
-                                <img class="services-icon" src="{{ "images/svg/web.svg" | relURL }}" alt="web">
+                                <img class="services-icon" src="./images/svg/web.svg" alt="web">
                                 <p class="web-dev-text">Web Design & Development</p>
                             </div>
                             <p class="visionary">Pellentesque consequat ornare arcu magna mattis. Morbi non dictum
@@ -236,7 +244,7 @@
                         </div>
                         <div class="services-box fade_down">
                             <div>
-                                <img class="services-icon" src="{{ "images/svg/UI-design.svg" | relURL }}" alt="UI-design">
+                                <img class="services-icon" src="./images/svg/UI-design.svg" alt="UI-design">
                                 <p class="web-dev-text">UI Design & Experience</p>
                             </div>
                             <p class="visionary">Facilisis auctor adipiscing magna mollis cras aliquet morbi. Quisque
@@ -245,7 +253,7 @@
                         </div>
                         <div class="services-box fade_down">
                             <div>
-                                <img class="services-icon" src="{{ "images/svg/digital.svg" | relURL }}" alt="web">
+                                <img class="services-icon" src="./images/svg/digital.svg" alt="web">
                                 <p class="web-dev-text">Web & Social Digital Solution</p>
                             </div>
                             <p class="visionary">Eleifend odio accumsan lectus nec neque purus et pellentesque. Amet
@@ -254,7 +262,7 @@
                         </div>
                         <div class="services-box fade_down">
                             <div>
-                                <img class="services-icon" src="{{ "images/svg/branding.svg" | relURL }}" alt="branding">
+                                <img class="services-icon" src="./images/svg/branding.svg" alt="branding">
                                 <p class="web-dev-text">Branding & Strategy</p>
                             </div>
                             <p class="visionary">In vitae accumsan tincidunt venenatis. Tempus enim elementum id
@@ -263,14 +271,14 @@
                         </div>
                         <div class="services-box mb-0 fade_down">
                             <div>
-                                <img class="services-icon" src="{{ "images/svg/video.svg" | relURL }}" alt="video">
+                                <img class="services-icon" src="./images/svg/video.svg" alt="video">
                                 <p class="web-dev-text">Video & Photography</p>
                             </div>
                             <p class="visionary">Mauris orci consequat at dolor in. Fringilla in at magna netus eleifend
                                 sit faucibus ultricies est. Euismod non dui potenti interdum neque praesent posuere.</p>
                         </div>
                     </section>
-                    <!-- ====================================== Section-Four ===================================== -->
+                    
                     <section class="section-four" id="portfolio">
                         <h2 class="creative fade_down">Featured Projects</h2>
                         <h2 class="visionary fade_down">My step-by-step guide ensures a smooth project journey, from the
@@ -290,9 +298,9 @@
                                     <div class="gallery-item">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#exampleModal">
-                                            <img src="{{ "images/home-images/project-img1.jpg" | relURL }}" alt="project-img1">
+                                            <img src="./images/home-images/project-img1.jpg" alt="project-img1">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/content-svg.svg" | relURL }}" alt="content-svg"
+                                                <img src="./images/svg/content-svg.svg" alt="content-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Space In Lost - Jupiter J2</p>
                                             </div>
@@ -305,10 +313,10 @@
                                     <div class="gallery-item">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#galleryModal">
-                                            <img src="{{ "images/home-images/project-img2.jpg" | relURL }}" alt="project-img2.jpg">
+                                            <img src="./images/home-images/project-img2.jpg" alt="project-img2.jpg">
                                                 alt="project-img2.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/gallery-svg.svg" | relURL }}" alt="gallery-svg"
+                                                <img src="./images/svg/gallery-svg.svg" alt="gallery-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Astronaut Catch Earth</p>
                                             </div>
@@ -320,10 +328,10 @@
                                     </div>
                                     <div class="gallery-item gallery-item3">
                                         <div class="gallery-item-sub youtube">
-                                            <img src="{{ "images/home-images/project-img3.jpg" | relURL }}" alt="project-img3.jpg">
+                                            <img src="./images/home-images/project-img3.jpg" alt="project-img3.jpg">
                                                 alt="project-img3.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/youtube-svg.svg" | relURL }}" alt="youtube-svg"
+                                                <img src="./images/svg/youtube-svg.svg" alt="youtube-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Connect With Future Place</p>
                                             </div>
@@ -335,10 +343,10 @@
                                     </div>
                                     <div class="gallery-item">
                                         <div class="gallery-item-sub vimeo">
-                                            <img src="{{ "images/home-images/project-img4.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img4.jpg"
                                                 alt="project-img4.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/vimeo-svg.svg" | relURL }}" alt="vimeo-svg"
+                                                <img src="./images/svg/vimeo-svg.svg" alt="vimeo-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -351,10 +359,10 @@
                                     <div class="gallery-item">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#exampleModal">
-                                            <img src="{{ "images/home-images/project-img5.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img5.jpg"
                                                 alt="project-img5.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/content-svg.svg" | relURL }}" alt="content-svg"
+                                                <img src="./images/svg/content-svg.svg" alt="content-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -367,10 +375,10 @@
                                     <div class="gallery-item">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#galleryModal">
-                                            <img src="{{ "images/home-images/project-img6.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img6.jpg"
                                                 alt="project-img6.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/gallery-svg.svg" | relURL }}" alt="gallery-svg"
+                                                <img src="./images/svg/gallery-svg.svg" alt="gallery-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -382,10 +390,10 @@
                                     </div>
                                     <div class="gallery-item gallery-item3 mb-0">
                                         <div class="gallery-item-sub youtube">
-                                            <img src="{{ "images/home-images/project-img7.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img7.jpg"
                                                 alt="project-img7.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/youtube-svg.svg" | relURL }}" alt="youtube-svg"
+                                                <img src="./images/svg/youtube-svg.svg" alt="youtube-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -397,10 +405,10 @@
                                     </div>
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub vimeo">
-                                            <img src="{{ "images/home-images/project-img8.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img8.jpg"
                                                 alt="project-img8.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/vimeo-svg.svg" | relURL }}" alt="vimeo-svg"
+                                                <img src="./images/svg/vimeo-svg.svg" alt="vimeo-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -417,9 +425,9 @@
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#exampleModal">
-                                            <img src="{{ "images/home-images/project-img1.jpg" | relURL }}" alt="project-img1">
+                                            <img src="./images/home-images/project-img1.jpg" alt="project-img1">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/content-svg.svg" | relURL }}" alt="content-svg"
+                                                <img src="./images/svg/content-svg.svg" alt="content-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Space In Lost - Jupiter J2</p>
                                             </div>
@@ -432,10 +440,10 @@
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#exampleModal">
-                                            <img src="{{ "images/home-images/project-img5.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img5.jpg"
                                                 alt="project-img5.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/content-svg.svg" | relURL }}" alt="content-svg"
+                                                <img src="./images/svg/content-svg.svg" alt="content-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -452,10 +460,10 @@
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#galleryModal">
-                                            <img src="{{ "images/home-images/project-img2.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img2.jpg"
                                                 alt="project-img2.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/gallery-svg.svg" | relURL }}" alt="gallery-svg"
+                                                <img src="./images/svg/gallery-svg.svg" alt="gallery-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Astronaut Catch Earth</p>
                                             </div>
@@ -468,10 +476,10 @@
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                             data-bs-target="#galleryModal">
-                                            <img src="{{ "images/home-images/project-img6.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img6.jpg"
                                                 alt="project-img6.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/gallery-svg.svg" | relURL }}" alt="gallery-svg"
+                                                <img src="./images/svg/gallery-svg.svg" alt="gallery-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -487,10 +495,10 @@
                                 <div class="gallery flex-nowrap">
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub youtube">
-                                            <img src="{{ "images/home-images/project-img3.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img3.jpg"
                                                 alt="project-img3.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/youtube-svg.svg" | relURL }}" alt="youtube-svg"
+                                                <img src="./images/svg/youtube-svg.svg" alt="youtube-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Connect With Future Place</p>
                                             </div>
@@ -502,10 +510,10 @@
                                     </div>
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub youtube">
-                                            <img src="{{ "images/home-images/project-img7.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img7.jpg"
                                                 alt="project-img7.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/youtube-svg.svg" | relURL }}" alt="youtube-svg"
+                                                <img src="./images/svg/youtube-svg.svg" alt="youtube-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -521,10 +529,10 @@
                                 <div class="gallery flex-nowrap">
                                     <div class="gallery-item">
                                         <div class="gallery-item-sub vimeo mb-0">
-                                            <img src="{{ "images/home-images/project-img4.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img4.jpg"
                                                 alt="project-img4.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/vimeo-svg.svg" | relURL }}" alt="vimeo-svg"
+                                                <img src="./images/svg/vimeo-svg.svg" alt="vimeo-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -536,10 +544,10 @@
                                     </div>
                                     <div class="gallery-item mb-0">
                                         <div class="gallery-item-sub vimeo">
-                                            <img src="{{ "images/home-images/project-img8.jpg" | relURL }}"
+                                            <img src="./images/home-images/project-img8.jpg"
                                                 alt="project-img8.jpg">
                                             <div class="overlay">
-                                                <img src="{{ "images/svg/vimeo-svg.svg" | relURL }}" alt="vimeo-svg"
+                                                <img src="./images/svg/vimeo-svg.svg" alt="vimeo-svg"
                                                     class="vimeo-icon">
                                                 <p class="overlay-text">Mind Process Chips</p>
                                             </div>
@@ -551,7 +559,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Content Modal -->
+                            
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
@@ -560,7 +568,7 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <img class="content-img" src="{{ "images/home-images/content-img.jpg" | relURL }}"
+                                            <img class="content-img" src="./images/home-images/content-img.jpg"
                                                 alt="content-img">
                                             <p class="spce-in-text">Space In Lost - Jupiter J2</p>
                                             <p class="spce-in-Content">Content</p>
@@ -597,9 +605,9 @@
                                                 dolorum consetur quo obcaecati rerum sit non.
                                             </p>
                                             <div class="plumbing-grid">
-                                                <img src="{{ "images/home-images/project-img1.jpg" | relURL }}"
+                                                <img src="./images/home-images/project-img1.jpg"
                                                     alt="single-blog-img3">
-                                                <img src="{{ "images/home-images/project-img4.jpg" | relURL }}"
+                                                <img src="./images/home-images/project-img4.jpg"
                                                     alt="single-blog-img4">
                                             </div>
                                             <p class="ipsum">Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -611,7 +619,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Gallery Modal -->
+                            
                             <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
@@ -622,44 +630,44 @@
                                         <div class="modal-body">
                                             <p class="spce-in-text text-gallery">Gallery</p>
                                             <div class="gallery-main-card">
-                                                <a href="{{ "images/gallery/gallery-img1.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img1.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 1">
-                                                    <img src="{{ "images/gallery/gallery-img1.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img1.jpg"
                                                         alt="gallery-img1">
                                                 </a>
-                                                <a href="{{ "images/gallery/gallery-img2.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img2.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 2">
-                                                    <img src="{{ "images/gallery/gallery-img2.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img2.jpg"
                                                         alt="gallery-img2">
                                                 </a>
-                                                <a href="{{ "images/gallery/gallery-img3.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img3.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 3">
-                                                    <img src="{{ "images/gallery/gallery-img3.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img3.jpg"
                                                         alt="gallery-img3">
                                                 </a>
-                                                <a href="{{ "images/gallery/gallery-img4.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img4.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 4">
-                                                    <img src="{{ "images/gallery/gallery-img4.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img4.jpg"
                                                         alt="gallery-img4">
                                                 </a>
-                                                <a href="{{ "images/gallery/gallery-img5.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img5.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 5">
-                                                    <img src="{{ "images/gallery/gallery-img5.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img5.jpg"
                                                         alt="gallery-img5">
                                                 </a>
-                                                <a href="{{ "images/gallery/gallery-img6.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img6.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 6">
-                                                    <img src="{{ "images/gallery/gallery-img6.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img6.jpg"
                                                         alt="gallery-img6">
                                                 </a>
-                                                <a href="{{ "images/gallery/gallery-img7.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img7.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 7">
-                                                    <img src="{{ "images/gallery/gallery-img7.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img7.jpg"
                                                         alt="gallery-img7">
                                                 </a>
-                                                <a href="{{ "images/gallery/gallery-img8.jpg" | relURL }}" data-fancybox="gallery"
+                                                <a href="./images/gallery/gallery-img8.jpg" data-fancybox="gallery"
                                                     data-caption="Caption Images 8">
-                                                    <img src="{{ "images/gallery/gallery-img8.jpg" | relURL }}"
+                                                    <img src="./images/gallery/gallery-img8.jpg"
                                                         alt="gallery-img8">
                                                 </a>
                                             </div>
@@ -669,7 +677,7 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ====================================== Section-Five ===================================== -->
+                    
                     <section class="section-five" id="testimonial">
                         <h3 class="creative brand fade_down">Our Clients <span>love working with us, we are
                             </span>Confident You Will Too!
@@ -678,12 +686,12 @@
                             our services customer support & etc.</h3>
                         <div class="testimonial zoom_in">
                             <div class="testimonial-box">
-                                <img class="client-img" src="{{ "images/home-images/client-img1.jpg" | relURL }}"
+                                <img class="client-img" src="./images/home-images/client-img1.jpg"
                                     alt="client-img1">
                                 <div class="slider-text-group">
                                     <div class="am-text-main">
                                         <p>Amazing Services!</p>
-                                        <img src="{{ "images/svg/qote.svg" | relURL }}" alt="qote">
+                                        <img src="./images/svg/qote.svg" alt="qote">
                                     </div>
                                     <p class="Neque">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
                                         consectetur, adipisci velit, sed quia non numquam eius tempora in labore et
@@ -694,12 +702,12 @@
                                 </div>
                             </div>
                             <div class="testimonial-box">
-                                <img class="client-img" src="{{ "images/home-images/client-img2.jpg" | relURL }}"
+                                <img class="client-img" src="./images/home-images/client-img2.jpg"
                                     alt="client-img2">
                                 <div class="slider-text-group">
                                     <div class="am-text-main">
                                         <p>Amazing Services!</p>
-                                        <img src="{{ "images/svg/qote.svg" | relURL }}" alt="qote">
+                                        <img src="./images/svg/qote.svg" alt="qote">
                                     </div>
                                     <p class="Neque">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
                                         consectetur, adipisci velit, sed quia non numquam eius tempora in labore et
@@ -710,12 +718,12 @@
                                 </div>
                             </div>
                             <div class="testimonial-box">
-                                <img class="client-img" src="{{ "images/home-images/client-img3.jpg" | relURL }}"
+                                <img class="client-img" src="./images/home-images/client-img3.jpg"
                                     alt="client-img3">
                                 <div class="slider-text-group">
                                     <div class="am-text-main">
                                         <p>Great Services!</p>
-                                        <img src="{{ "images/svg/qote.svg" | relURL }}" alt="qote">
+                                        <img src="./images/svg/qote.svg" alt="qote">
                                     </div>
                                     <p class="Neque">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
                                         consectetur, adipisci velit, sed quia non numquam eius tempora in labore et
@@ -726,12 +734,12 @@
                                 </div>
                             </div>
                             <div class="testimonial-box">
-                                <img class="client-img" src="{{ "images/home-images/client-img4.jpg" | relURL }}"
+                                <img class="client-img" src="./images/home-images/client-img4.jpg"
                                     alt="client-img4">
                                 <div class="slider-text-group">
                                     <div class="am-text-main">
                                         <p>Good Services!</p>
-                                        <img src="{{ "images/svg/qote.svg" | relURL }}" alt="qote">
+                                        <img src="./images/svg/qote.svg" alt="qote">
                                     </div>
                                     <p class="Neque">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
                                         consectetur, adipisci velit, sed quia non numquam eius tempora in labore et
@@ -742,12 +750,12 @@
                                 </div>
                             </div>
                             <div class="testimonial-box">
-                                <img class="client-img" src="{{ "images/home-images/client-img5.jpg" | relURL }}"
+                                <img class="client-img" src="./images/home-images/client-img5.jpg"
                                     alt="client-img5">
                                 <div class="slider-text-group">
                                     <div class="am-text-main">
                                         <p>Best Services!</p>
-                                        <img src="{{ "images/svg/qote.svg" | relURL }}" alt="qote">
+                                        <img src="./images/svg/qote.svg" alt="qote">
                                     </div>
                                     <p class="Neque">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
                                         consectetur, adipisci velit, sed quia non numquam eius tempora in labore et
@@ -767,26 +775,26 @@
                             <div class="logos-slide">
                                 <div class="marquee__content">
                                     <div class="marquee-img-main">
-                                        <img class="brand-logos" src="{{ "images/home-images/client-logo1.png" | relURL }}"
+                                        <img class="brand-logos" src="./images/home-images/client-logo1.png"
                                             alt="client-logo1">
                                     </div>
                                     <div class="marquee-img-main">
-                                        <img class="brand-logos" src="{{ "images/home-images/client-logo2.png" | relURL }}"
+                                        <img class="brand-logos" src="./images/home-images/client-logo2.png"
                                             alt="client-logo2">
                                     </div>
                                     <div class="marquee-img-main">
-                                        <img class="brand-logos" src="{{ "images/home-images/client-logo3.png" | relURL }}"
+                                        <img class="brand-logos" src="./images/home-images/client-logo3.png"
                                             alt="client-logo3">
                                     </div>
                                     <div class="marquee-img-main">
-                                        <img class="brand-logos" src="{{ "images/home-images/client-logo4.png" | relURL }}"
+                                        <img class="brand-logos" src="./images/home-images/client-logo4.png"
                                             alt="client-logo4">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <!-- ====================================== Section-Six ===================================== -->
+                    
                     <section class="section-six" id="resume">
                         <div class="row resume-sec-row">
                             <div class="col-xxl-6 col-lg-6">
@@ -894,28 +902,28 @@
                             <h2 class="creative brand pb-0 fade_down">Design <span>Skills</span></h2>
                             <div class="design-skill-sub-section">
                                 <div class="design-skills-img-main flip_up show">
-                                    <img src="{{ "images/home-images/figma-img.png" | relURL }}" alt="figma-img">
+                                    <img src="./images/home-images/figma-img.png" alt="figma-img">
                                     <div class="skill-counter-main">
                                         <p>94%</p>
                                         <p>HTML, CSS</p>
                                     </div>
                                 </div>
                                 <div class="design-skills-img-main photoshop flip_up show">
-                                    <img src="{{ "images/home-images/photoshop-img.png" | relURL }}" alt="photoshop-img">
+                                    <img src="./images/home-images/photoshop-img.png" alt="photoshop-img">
                                     <div class="skill-counter-main photoshop-text">
                                         <p>98%</p>
                                         <p>PHOTOSHOP</p>
                                     </div>
                                 </div>
                                 <div class="design-skills-img-main adobe-xd flip_up show">
-                                    <img src="{{ "images/home-images/adobe-xd-img.png" | relURL }}" alt="adobe-xd-img">
+                                    <img src="./images/home-images/adobe-xd-img.png" alt="adobe-xd-img">
                                     <div class="skill-counter-main adobe-xd-text">
                                         <p>88%</p>
                                         <p>ADOBE XD</p>
                                     </div>
                                 </div>
                                 <div class="design-skills-img-main sketch flip_up show">
-                                    <img src="{{ "images/home-images/sktech-img.png" | relURL }}" alt="sktech-img">
+                                    <img src="./images/home-images/sktech-img.png" alt="sktech-img">
                                     <div class="skill-counter-main sketch-text">
                                         <p>85%</p>
                                         <p>SKETCH</p>
@@ -933,7 +941,7 @@
                                                 <div class="inner">
                                                     <div class="years-award-img">
                                                         <img class="winner-award"
-                                                            src="{{ "images/home-images/winner-award.png" | relURL }}"
+                                                            src="./images/home-images/winner-award.png"
                                                             alt="winner-award">
                                                         <p class="award-yer">2025</p>
                                                     </div>
@@ -957,7 +965,7 @@
                                                 <div class="inner">
                                                     <div class="years-award-img">
                                                         <img class="winner-award"
-                                                            src="{{ "images/home-images/winner-award2.png" | relURL }}"
+                                                            src="./images/home-images/winner-award2.png"
                                                             alt="winner-award2">
                                                         <p class="award-yer">2024</p>
                                                     </div>
@@ -981,7 +989,7 @@
                                                 <div class="inner">
                                                     <div class="years-award-img">
                                                         <img class="winner-award"
-                                                            src="{{ "images/home-images/winner-award3.png" | relURL }}"
+                                                            src="./images/home-images/winner-award3.png"
                                                             alt="winner-award3">
                                                         <p class="award-yer">2023</p>
                                                     </div>
@@ -1005,7 +1013,7 @@
                                                 <div class="inner">
                                                     <div class="years-award-img">
                                                         <img class="winner-award"
-                                                            src="{{ "images/home-images/winner-award4.png" | relURL }}"
+                                                            src="./images/home-images/winner-award4.png"
                                                             alt="winner-award4">
                                                         <p class="award-yer">2022</p>
                                                     </div>
@@ -1025,13 +1033,13 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ====================================== Section Seven ===================================== -->
+                    
                     <section class="section-Seven" id="pricingPlan">
                         <h2 class="creative brand pb-0 fade_down">Pricing <span>Plan</span></h2>
                         <div class="pricing-section-main zoom_in">
                             <div class="basic-plain-box-main">
                                 <div class="basic-plain-box">
-                                    <img src="{{ "images/svg/basic-plain.svg" | relURL }}" alt="basic-plain">
+                                    <img src="./images/svg/basic-plain.svg" alt="basic-plain">
                                     <p class="basic-plain-text">Basic Plan</p>
                                 </div>
                                 <div class="basic-plain-box-sub">
@@ -1050,7 +1058,7 @@
                                     <div class="aryaBtn-toggle-main">
                                         <a href="#" class="aryaBtn choose-plan" data-bs-toggle="modal"
                                             data-bs-target="#PricingModal">
-                                            Choose Plan <img src="{{ "images/svg/right-arrow.svg" | relURL }}" alt="right-arrow">
+                                            Choose Plan <img src="./images/svg/right-arrow.svg" alt="right-arrow">
                                         </a>
                                     </div>
                                     <p class="taxes">10% taxes will include after make price</p>
@@ -1060,7 +1068,7 @@
                         <div class="pricing-section-main zoom_in">
                             <div class="basic-plain-box-main">
                                 <div class="basic-plain-box basic-plain-box2">
-                                    <img src="{{ "images/svg/strandard-plan.svg" | relURL }}" alt="strandard-plan">
+                                    <img src="./images/svg/strandard-plan.svg" alt="strandard-plan">
                                     <p class="basic-plain-text">Standard Plan</p>
                                 </div>
                                 <div class="basic-plain-box-sub">
@@ -1079,7 +1087,7 @@
                                     <div class="aryaBtn-toggle-main">
                                         <a href="#" class="aryaBtn choose-plan" data-bs-toggle="modal"
                                             data-bs-target="#PricingModal">
-                                            Choose Plan <img src="{{ "images/svg/right-arrow.svg" | relURL }}" alt="right-arrow">
+                                            Choose Plan <img src="./images/svg/right-arrow.svg" alt="right-arrow">
                                         </a>
                                     </div>
                                     <p class="taxes">10% taxes will include after make price</p>
@@ -1089,7 +1097,7 @@
                         <div class="pricing-section-main mb-0 zoom_in">
                             <div class="basic-plain-box-main">
                                 <div class="basic-plain-box basic-plain-box3">
-                                    <img src="{{ "images/svg/gold-plan.svg" | relURL }}" alt="gold-plan">
+                                    <img src="./images/svg/gold-plan.svg" alt="gold-plan">
                                     <p class="basic-plain-text">Gold Plan</p>
                                 </div>
                                 <div class="basic-plain-box-sub">
@@ -1108,14 +1116,14 @@
                                     <div class="aryaBtn-toggle-main">
                                         <a href="#" class="aryaBtn choose-plan" data-bs-toggle="modal"
                                             data-bs-target="#PricingModal">
-                                            Choose Plan <img src="{{ "images/svg/right-arrow.svg" | relURL }}" alt="right-arrow">
+                                            Choose Plan <img src="./images/svg/right-arrow.svg" alt="right-arrow">
                                         </a>
                                     </div>
                                     <p class="taxes">10% taxes will include after make price</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- Blog Modal -->
+                        
                         <div class="modal fade" id="PricingModal" tabindex="-1" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
@@ -1152,7 +1160,7 @@
                                                         <div class="wrapper">
                                                             <div class="formDropDown">Choose Plan
                                                                 <img class="arrow-icon-form"
-                                                                    src="{{ "images/svg/right-arrow.svg" | relURL }}"
+                                                                    src="./images/svg/right-arrow.svg"
                                                                     alt="arrow-icon-form">
                                                             </div>
                                                             <div class="position-relative">
@@ -1176,7 +1184,7 @@
                                             </div>
                                             <div class="submit-btn-main">
                                                 <a href="#" class="aryaBtn">Submit
-                                                    <img src="{{ "images/svg/right-arrow.svg" | relURL }}" alt="right-arrow">
+                                                    <img src="./images/svg/right-arrow.svg" alt="right-arrow">
                                                 </a>
                                             </div>
                                         </form>
@@ -1185,7 +1193,7 @@
                             </div>
                         </div>
                     </section>
-                    <!-- ====================================== Section Eight ===================================== -->
+                    
                     <section class="section-eight" id="blog">
                         <h3 class="creative brand fade_down">Latest <span>Blog</span></h3>
                         <h3 class="visionary fade_down">Our happy customers give us impactful and positive feedback on
@@ -1198,7 +1206,7 @@
                                     <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.
                                         Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.
                                     </p>
-                                    <img class="blog-img" src="{{ "images/home-images/blog-img1.jpg" | relURL }}" alt="blog-img1">
+                                    <img class="blog-img" src="./images/home-images/blog-img1.jpg" alt="blog-img1">
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -1208,7 +1216,7 @@
                                     <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.
                                         Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.
                                     </p>
-                                    <img class="blog-img" src="{{ "images/home-images/blog-img2.jpg" | relURL }}" alt="blog-img2">
+                                    <img class="blog-img" src="./images/home-images/blog-img2.jpg" alt="blog-img2">
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -1218,7 +1226,7 @@
                                     <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.
                                         Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.
                                     </p>
-                                    <img class="blog-img" src="{{ "images/home-images/blog-img3.jpg" | relURL }}" alt="blog-img3">
+                                    <img class="blog-img" src="./images/home-images/blog-img3.jpg" alt="blog-img3">
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -1228,7 +1236,7 @@
                                     <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.
                                         Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.
                                     </p>
-                                    <img class="blog-img" src="{{ "images/home-images/blog-img4.jpg" | relURL }}" alt="blog-img4">
+                                    <img class="blog-img" src="./images/home-images/blog-img4.jpg" alt="blog-img4">
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -1238,7 +1246,7 @@
                                     <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.
                                         Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.
                                     </p>
-                                    <img class="blog-img" src="{{ "images/home-images/blog-img5.jpg" | relURL }}" alt="blog-img5">
+                                    <img class="blog-img" src="./images/home-images/blog-img5.jpg" alt="blog-img5">
                                 </div>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -1248,17 +1256,17 @@
                                     <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.
                                         Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.
                                     </p>
-                                    <img class="blog-img" src="{{ "images/home-images/blog-img6.jpg" | relURL }}" alt="blog-img6">
+                                    <img class="blog-img" src="./images/home-images/blog-img6.jpg" alt="blog-img6">
                                 </div>
                             </div>
                         </div>
                         <div class="load-more-btn">
                             <a href="#" class="aryaBtn">
-                                Load More <img src="{{ "images/svg/load-more.svg" | relURL }}" alt="load-more">
+                                Load More <img src="./images/svg/load-more.svg" alt="load-more">
                             </a>
                         </div>
                     </section>
-                    <!-- Blog Modal -->
+                    
                     <div class="modal fade" id="BlogModal" tabindex="-1" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-scrollable">
                             <div class="modal-content">
@@ -1269,14 +1277,14 @@
                                 <div class="modal-body">
                                     <div class="date-tag-eye-main">
                                         <p class="date-blog">
-                                            <img src="{{ "images/svg/calendar-clock.svg" | relURL }}" alt="calendar-clock"> March
+                                            <img src="./images/svg/calendar-clock.svg" alt="calendar-clock"> March
                                             01, 2025
                                         </p>
-                                        <p class="date-blog"><img src="{{ "images/svg/tag.svg" | relURL }}" alt="tag">SEO</p>
-                                        <p class="date-blog"><img src="{{ "images/svg/eye.svg" | relURL }}" alt="eye">1.2k</p>
+                                        <p class="date-blog"><img src="./images/svg/tag.svg" alt="tag">SEO</p>
+                                        <p class="date-blog"><img src="./images/svg/eye.svg" alt="eye">1.2k</p>
                                     </div>
                                     <h2 class="simple-steps">How to Optimize your Website for Better Performance</h2>
-                                    <img class="single-blog" src="{{ "images/home-images/single-blog.jpg" | relURL }}"
+                                    <img class="single-blog" src="./images/home-images/single-blog.jpg"
                                         alt="single-blog">
                                     <p class="fusc mt-0">In pharetra lectus porttitor eros massa sit mattis quis.
                                         Ultricies sed cras arcu integer nisi aliquam. Nibh consequat dignissim iaculis
@@ -1309,29 +1317,29 @@
                                     </div>
                                     <div class="media-main single-blog-media">
                                         <a href="https://www.facebook.com" class="media-icons">
-                                            <img src="{{ "images/svg/facebook.svg" | relURL }}" alt="facebook">
+                                            <img src="./images/svg/facebook.svg" alt="facebook">
                                         </a>
                                         <a href="https://www.instagram.com" class="media-icons">
-                                            <img src="{{ "images/svg/insta.svg" | relURL }}" alt="insta">
+                                            <img src="./images/svg/insta.svg" alt="insta">
                                         </a>
                                         <a href="https://x.com" class="media-icons">
-                                            <img src="{{ "images/svg/twitter.svg" | relURL }}" alt="twitter">
+                                            <img src="./images/svg/twitter.svg" alt="twitter">
                                         </a>
                                         <a href="https://www.behance.net" class="media-icons">
-                                            <img src="{{ "images/svg/behance.svg" | relURL }}" alt="behance">
+                                            <img src="./images/svg/behance.svg" alt="behance">
                                         </a>
                                         <a href="https://dribbble.com" class="media-icons">
-                                            <img src="{{ "images/svg/dribbale.svg" | relURL }}" alt="dribbale">
+                                            <img src="./images/svg/dribbale.svg" alt="dribbale">
                                         </a>
                                         <a href="https://www.linkedin.com" class="media-icons">
-                                            <img src="{{ "images/svg/linkdin.svg" | relURL }}" alt="linkdin">
+                                            <img src="./images/svg/linkdin.svg" alt="linkdin">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- ====================================== Section Nine ===================================== -->
+                    
                     <section class="section-nine" id="contact">
                         <h3 class="creative brand fade_down">Let’s Talk <span> With Us</span></h3>
                         <h3 class="visionary fade_down">We are the top creative agency for branding corp. We offer a
@@ -1340,7 +1348,7 @@
                         <div class="contact-box-grid">
                             <div class="contact-sec-box zoom_in">
                                 <p class="call-us-contact">
-                                    <img class="call-us-contact-img" src="{{ "images/svg/call.svg" | relURL }}" alt="call"> Call
+                                    <img class="call-us-contact-img" src="./images/svg/call.svg" alt="call"> Call
                                     Us
                                 </p>
                                 <p class="day-time">Monday to Friday 8:30 - 17:00</p>
@@ -1350,7 +1358,7 @@
                             </div>
                             <div class="contact-sec-box zoom_in">
                                 <p class="call-us-contact">
-                                    <img class="call-us-contact-img" src="{{ "images/svg/email.svg" | relURL }}" alt="call"> Chat
+                                    <img class="call-us-contact-img" src="./images/svg/email.svg" alt="call"> Chat
                                     to Us
                                 </p>
                                 <p class="day-time">Our friendly team is here to help.</p>
@@ -1360,7 +1368,7 @@
                             </div>
                             <div class="contact-sec-box zoom_in">
                                 <p class="call-us-contact">
-                                    <img class="call-us-contact-img" src="{{ "images/svg/loaction.svg" | relURL }}" alt="loaction">Visit Us
+                                    <img class="call-us-contact-img" src="./images/svg/loaction.svg" alt="loaction">Visit Us
                                         alt="loaction">Visit Us
                                 </p>
                                 <p class="day-time">Come say hello at our office HQ.</p>
@@ -1402,12 +1410,12 @@
                             </div>
                             <div class="download-btn">
                                 <a href="#" class="aryaBtn">
-                                    Send Message <img src="{{ "images/svg/right-arrow.svg" | relURL }}" alt="right-arrow">
+                                    Send Message <img src="./images/svg/right-arrow.svg" alt="right-arrow">
                                 </a>
                             </div>
                         </form>
                     </section>
-                    <!-- ====================================== Footer ===================================== -->
+                    
                     <footer>
                         <div class="rights-reserved">
                             <h2>© 2024 - All rights reserved by
@@ -1415,7 +1423,7 @@
                             </h2>
                             <div class="home-media-icon-main-head">
                                 <a href="#" target="_blank">Terms & Conditions</a>
-                                <a href="{{ "/portfolio/" | relURL }}" target="_blank">Portfolio</a>
+                                <a href="./portfolio/" target="_blank">Portfolio</a>
                             </div>
                         </div>
                     </footer>
@@ -1423,19 +1431,22 @@
             </div>
         </div>
     </div>
-    <!-- ====================================== Bottom To Top Button ===================================== -->
+    
     <button class="bottom-top-button">
-  <img src="{{ "images/svg/arrow-up.svg" | relURL }}" alt="arrow-up">
+  <img src="./images/svg/arrow-up.svg" alt="arrow-up">
 </button>
-    <!-- ====================================== Bottom To Top Button End ===================================== -->
-<script src="{{ "javascript/jquery.min.js" | relURL }}"></script>
-<script src="{{ "javascript/gsap.js" | relURL }}"></script>
-<script src="{{ "javascript/bootstrap.min.js" | relURL }}"></script>
-<script src="{{ "javascript/magnific-popup.min.js" | relURL }}"></script>
-<script src="{{ "javascript/fancybox.min.js" | relURL }}"></script>
-<script src="{{ "javascript/typing.js" | relURL }}"></script>
-<script src="{{ "javascript/smooth-scroll.js" | relURL }}"></script>
-<script src="{{ "javascript/slick.min.js" | relURL }}"></script>
-<script src="{{ "javascript/script.js" | relURL }}"></script>
+    
+<script src="./javascript/jquery.min.js"></script>
+<script src="./javascript/gsap.js"></script>
+<script src="./javascript/bootstrap.min.js"></script>
+<script src="./javascript/magnific-popup.min.js"></script>
+<script src="./javascript/fancybox.min.js"></script>
+<script src="./javascript/typing.js"></script>
+<script src="./javascript/smooth-scroll.js"></script>
+<script src="./javascript/slick.min.js"></script>
+<script src="./javascript/script.js"></script>
 
-{{ end }}
+
+</body>
+
+</html>

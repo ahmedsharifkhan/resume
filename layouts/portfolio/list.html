@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="section-portfolio" id="portfolio">
+  <div class="container">
+    <h1 class="creative">{{ .Title }}</h1>
+    <p class="visionary">{{ .Content }}</p>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="portfolio-card">
+          <img src="{{ "images/portfolio/1.jpg" | relURL }}" alt="Portfolio 1" class="img-fluid">
+          <h3>Project Title 1</h3>
+          <p>Short description here.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="portfolio-card">
+          <img src="{{ "images/portfolio/2.jpg" | relURL }}" alt="Portfolio 2" class="img-fluid">
+          <h3>Project Title 2</h3>
+          <p>Short description here.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="portfolio-card">
+          <img src="{{ "images/portfolio/3.jpg" | relURL }}" alt="Portfolio 3" class="img-fluid">
+          <h3>Project Title 3</h3>
+          <p>Short description here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
